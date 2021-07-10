@@ -1,0 +1,41 @@
+.login{
+  background-image: -webkit-linear-gradient(70.5deg,	white 50%, #eff6fc 50%);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.login__logo{
+    display: flex;
+    flex-direction: column;
+    
+}
+.login__logo>img{
+    object-fit: contain;
+    height: 200px;
+    border-radius: 30%;
+ 
+    
+   
+}
+.login__logo>h1{
+    margin-top: 25px;
+    
+    color: darkgray;
+      text-align: center;
+      font-family: 'Yatra One', cursive;
+     
+}
+.login__logo>p{
+    margin-top: 15px;
+    color: darkgray;
+    text-align: center;
+    box-shadow: 0 5px 7px -9px rgba(0,0,0,0.75) ;
+}
+.login>button{
+    width: 300px;
+    background-color: blueviolet;
+    color:white;
+}
+.login>button:hover{
+  color: blueviolet;
+}
